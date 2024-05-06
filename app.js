@@ -15,9 +15,9 @@ app.use(cookieParser());
 app.set('view engine', 'ejs');
 
 // database connection
-const dbURI = 'mongodb+srv://shaun:test1234@cluster0.del96.mongodb.net/node-auth';
-mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true })
-  .then((result) => app.listen(3000))
+const dbURI = "mongodb+srv://liyopirince1992:Miradi32Tembo@blogs.x7sgeik.mongodb.net/Auth-Users";
+mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
+  .then((result) => app.listen(3001))
   .catch((err) => console.log(err));
 
 // routes
